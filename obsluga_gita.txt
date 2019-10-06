@@ -3,7 +3,7 @@
 git init - pojawia się nowy folder ".git" (tylko za pierwszym razem to wykonujemy)
 ~~git add README.md (opcjonalnie)~~
 git add nazwa_pliku ~(albo "git add ." doda wszxyskto co jest w folderze)
-git commit -m "komentarz do zmian ale musi byc zawsze"
+git commit -m "komentarz do zmian ale musi być zawsze"
 git remote add origin https://github.com/mkoruszowic/nazwa_pliku.git (tylko za pierwszym razem to wykonujemy)
 git push -u origin master (tylko za pierwszym razem to wykonujemy)
 
