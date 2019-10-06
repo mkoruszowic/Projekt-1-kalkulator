@@ -1,0 +1,23 @@
+		***WSZSYTKIE OPERACJE WYKONUJEMY W CMD W KONKRETNYM FOLDERZE Z PLIKIEM***
+
+git init - pojawia się nowy folder ".git" (tylko za pierwszym razem to wykonujemy)
+~~git add README.md (opcjonalnie)~~
+git add nazwa_pliku ~(albo "git add ." doda wszxyskto co jest w folderze)
+git commit -m "komentarz do zmian"
+git remote add origin https://github.com/mkoruszowic/nazwa_pliku.git (tylko za pierwszym razem to wykonujemy)
+git push -u origin master
+
+żeby ściągnąć coś ze zdalngo repozytorium (czyli na stronie) musimy użyć komendy:
+git pull
+
+INNE KOMENDY
+
+git pull -żeby ściągnąć coś ze zdalngo repozytorium (czyli na stronie)
+
+
+git status - wylistowuje stan w jakim znajdują się pliki w repozytorium
+
+git add <nazwa_pliku>-  dodaje zmiany w pliku 
+git add -p – pokaże jakie zmiany zostały dokonane w pliku. Możemy je zaakceptować lub odrzucić
+git commit -m "twój opis" - Wszystkie zaakceptowane zmiany znowu dodaje do commita 
+(a na koniec trzeba je wypchać push-em)
