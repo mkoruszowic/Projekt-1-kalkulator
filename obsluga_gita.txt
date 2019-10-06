@@ -7,9 +7,6 @@ git commit -m "komentarz do zmian ale musi być zawsze"
 git remote add origin https://github.com/mkoruszowic/nazwa_pliku.git (tylko za pierwszym razem to wykonujemy)
 git push -u origin master (tylko za pierwszym razem to wykonujemy)
 
-żeby ściągnąć coś ze zdalngo repozytorium (czyli na stronie) musimy użyć komendy:
-git pull
-
 INNE KOMENDY
 
 git pull -żeby ściągnąć coś ze zdalngo repozytorium (czyli na stronie)
