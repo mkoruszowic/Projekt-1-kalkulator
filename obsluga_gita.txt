@@ -5,7 +5,7 @@ git init - pojawia się nowy folder ".git" (tylko za pierwszym razem to wykonuje
 git add nazwa_pliku ~(albo "git add ." doda wszxyskto co jest w folderze)
 git commit -m "komentarz do zmian"
 git remote add origin https://github.com/mkoruszowic/nazwa_pliku.git (tylko za pierwszym razem to wykonujemy)
-git push -u origin master
+git push -u origin master (tylko za pierwszym razem to wykonujemy)
 
 żeby ściągnąć coś ze zdalngo repozytorium (czyli na stronie) musimy użyć komendy:
 git pull
